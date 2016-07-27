@@ -1,6 +1,6 @@
 Name:           dbench
 Version:        4.0 
-Release:        12%{?dist}
+Release:        13%{?dist}
 Summary:        Filesystem load benchmarking tool
 
 Group:          System Environment/Base
@@ -45,6 +45,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/*
 
 %changelog
+* Wed Jul 27 2016 Niels de Vos <ndevos@redhat.com> - 4.0-13
+- Rebuilt for CentOS Storage SIG, new ppc64le architecture
+ 
 * Wed Jun 17 2015 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 4.0-12
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_23_Mass_Rebuild
 
